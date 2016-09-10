@@ -60,6 +60,19 @@ return array(
 
             ),
 
+            'thankyou' => array(
+                'type' => 'Zend\Mvc\Router\Http\Literal',
+                'options' => array(
+                    'route'    => '/thankyou',
+                    'defaults' => array(
+                        'controller' => 'Application/Controller/thankyou',
+                        'action'     => 'index',
+                    ),
+                ),
+
+            ),
+
+
             'servicesoffices' => array(
                 'type' => 'Zend\Mvc\Router\Http\Literal',
                 'options' => array(
@@ -215,6 +228,7 @@ return array(
             'Application\Controller\Dayoffice'       => Controller\DayofficeController::class,
             'Application\Controller\Randwick'       => Controller\RandwickController::class,
             'Application\Controller\Virtualoffices'       => Controller\VirtualofficesController::class,
+            'Application\Controller\Thankyou'       => Controller\ThankyouController::class,
         ),
     ),
     'view_manager' => array(

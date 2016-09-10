@@ -41,7 +41,8 @@
 	padding:0;
 }
 body{
-	font-family: 'Fira Sans', sans-serif;
+	/*font-family: 'Fira Sans', sans-serif;*/
+    font-family: Lato;
 	font-size:14px;
 	color: #737373;
 	background:#fefefe;
@@ -641,7 +642,7 @@ p.text{
 #team .t-content{
 	position: absolute;
     top: 20px;
-    right: 5px;
+    right: 10px;
     text-align: center;
 	transition: opacity 1000ms ease 0s, transform 1000ms ease 0s, border-radius 1000ms ease 0s;
 }
@@ -651,11 +652,12 @@ p.text{
     text-transform: uppercase;
     color: #eb1b33;
 }
-#team .t-content h5{
-	font-size: 16px;
+#team .t-content h3{
+	font-size: 24px;
     text-transform: uppercase;
     color: #eb1b33;
-    margin: 0 0 5px;
+    margin:0px 67px 27px;
+    font-weight: bold;
 }
 #team .content ,
 #team .t-content p{text-transform:capitalize;}
@@ -922,9 +924,8 @@ p.text{
     text-transform: uppercase;
 }
 
-
 #slide3{
-    background: url(../images/sbg2.jpg)no-repeat;
+    background: url(../images/virtual-offices-bar.png)no-repeat;
     overflow:hidden;
 }
 #slide3 .sbg {
@@ -932,7 +933,7 @@ p.text{
     color: #fefefe;
     padding: 30px 0;
 }
-#slide3 .sbg  h1{
+#slide3  .sbg  h1{
     text-transform: uppercase;
     border-right:1px solid #fefefe;
     font-size: 60px;
@@ -1065,6 +1066,12 @@ p.text{
 	background-size:cover;
 	overflow:hidden;
 }
+#slide3{
+    background: url(../images/virtual-offices-bar.png)no-repeat;
+    background-position:100%;
+    background-size:cover;
+    overflow:hidden;
+}
 #slide .s-bg{
 	background-color: rgba(0, 0, 0, 0.8);
     color: #fefefe;
@@ -1109,7 +1116,7 @@ p.text{
 	background:#f5f5f5;
 	overflow:hidden;
 }
-#about .about-us{padding:90px 0 70px;}
+#about .about-us{padding:10px 0 70px;}
 #about .about-us h1{
 	margin:0 0 5px;
 	color:#333;
@@ -1125,7 +1132,8 @@ p.text{
 #about .au-img img{width:100%;}
 #about .a-us{padding-top:50px;line-height:1.8;}
 #about .a-us h5{
-	margin: 0 0 25px;
+	margin: 25px 0 0;
+    font-weight: bold;
     color: #737373;
 	font-size: 15px;
     line-height: 1.5;
