@@ -666,8 +666,13 @@ p.text{
     overflow: hidden;
     height: 100%;
     width: 100%;
+
 }
-.t-img img {width: 100%;}
+.t-img img {
+    width: 100%;
+
+}
+
 .t-bg,
 .ti-bg{
 	-webkit-box-sizing: content-box;
