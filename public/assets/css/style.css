@@ -64,6 +64,7 @@ a,a:hover,a:active,a:focus{text-decoration:none;}
 	position:relative;
 	max-width:1920px;
 	margin:0 auto;
+    text-align: center
 }
 /*----------------------------------------------------------------------------------------------------------
 									2.Common css all page
@@ -79,6 +80,23 @@ a,a:hover,a:active,a:focus{text-decoration:none;}
 	font-size: 13px;
 	overflow:hidden;
 }
+
+#contenido{
+    margin-top:120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    /* change if the mask should have another color then white */
+    z-index: 9998;
+    /* makes sure it stays on top */
+    opacity: .98;
+}
+
+
+
 #header .top-left{
 	position:relative;
 	float:left;
@@ -86,7 +104,7 @@ a,a:hover,a:active,a:focus{text-decoration:none;}
 #header .top-left li{
 	list-style: none;
     float: left;
-    padding: 20px 50px 20px 0;
+    padding: 5px 50px 9px 0;
 }
 #header .top-left li>a{color: #737373;}
 
@@ -120,7 +138,7 @@ select option:hover {
     color: #737373 !important;
 	 background: #fefefe !important;
 }
-#header .bc{float:right;padding-top: 9px;}
+#header .bc{float:right;padding-top: 2px;}
 #header .top-right{display:inline;}
 
 #header .t-bg a{color:#919191;transition:.7s;}
@@ -174,10 +192,27 @@ h2.title{
 /*-------------------------------------
 			ii.Main-Menu
 --------------------------------------*/
+
+#cabezera {
+    margin: auto;
+    width: 63%;
+    background-color:white;
+    display: block;
+    color: #eb1b33;
+}
+
+#pie {
+    position:absolute;
+    margin: auto;
+    width: 63%;
+}
+
 #f-menu,
 #main-menu{
-	position:relative;
+	position:fixed;
+    z-index:9999;
 	text-transform:uppercase;
+    display: block;
 }
 #main-menu .navbar-default {
     background-color: #fefefe;
