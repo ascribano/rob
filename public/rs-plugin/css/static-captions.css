@@ -17,18 +17,18 @@ color:#ffa902;
 	color:#fefefe;
 	text-transform:uppercase;
 }
-.tp-caption h1 span{color:#eb1b33;}
+.tp-caption h1 span{color:#1BB98C;}
 .overlay {
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(38, 38, 38, 0.9);
 }
  .txt1 p:hover,
  .txt  p:hover{
-	background:#eb1b33;
-	border:1px solid #eb1b33;
+	background:#1BB98C;
+	border:1px solid #1BB98C;
 	transition:.7s
 }
  .txt1 a:hover,
