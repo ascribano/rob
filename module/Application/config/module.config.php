@@ -35,7 +35,16 @@ return array(
 			      	),
 				),
 			),
-
+            'privacy' => array(
+                'type' => 'Zend\Mvc\Router\Http\Literal',
+                'options' => array(
+                    'route'    => '/privacy',
+                    'defaults' => array(
+                        'controller' => 'Application/Controller/Privacy',
+                        'action'     => 'index',
+                    ),
+                ),
+            ),
              'home' => array(
                 'type' => 'Zend\Mvc\Router\Http\Literal',
                 'options' => array(
@@ -229,6 +238,7 @@ return array(
             'Application\Controller\Randwick'       => Controller\RandwickController::class,
             'Application\Controller\Virtualoffices'       => Controller\VirtualofficesController::class,
             'Application\Controller\Thankyou'       => Controller\ThankyouController::class,
+            'Application\Controller\Privacy'       => Controller\PrivacyController::class,
         ),
     ),
     'view_manager' => array(

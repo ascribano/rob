@@ -1,4 +1,96 @@
 <style>
+
+    .bottom{
+        position: absolute;
+        text-align: center;
+        left:16%;
+        bottom: 10px;
+    }
+    .pricing {
+        margin-top: 50px;
+    }
+
+    .pricing ul {
+        /* border: 1px solid #e7e7e7;*/
+        border-bottom: 0;
+        list-style: none;
+        padding: 0;
+        position: relative;
+        top: 0;
+        transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
+    }
+
+    .pricing ul:hover {
+        top: -15px;
+    }
+
+    .pricing ul li {
+        border-bottom: 1px solid #e7e7e7;
+        padding: 15px;
+    }
+
+    .pricing ul li:nth-child(2n) {
+        background: #f8f8f8;
+    }
+
+    .pricing .title {
+        background: #222;
+        border: 0;
+        color: #fff;
+        font-family: "Montserrat", Arial;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: -0.05em;
+        padding: 50px 0 0;
+        text-transform: uppercase;
+    }
+
+    .pricing .title3 {
+        background: #222;
+        border: 0;
+        color: #fff;
+        font-family: "Montserrat", Arial;
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .popular {
+        background-color: rgba(27, 185, 140, 1);
+        height:300px;
+    }
+
+    .popular2 {
+        background-color: #406696;
+        height:300px;
+    }
+
+    .popular h1{
+        font-size: 16px;
+    }
+
+    .pricing .price {
+        background: #222 !important;
+        color: #14b1bb;
+        font-family: "Montserrat", Arial;
+        font-size: 72px;
+        font-weight: bold;
+        letter-spacing: -0.05em;
+
+        padding: 0 0 50px;
+        text-transform: uppercase;
+    }
+
+
+
+</style>
+
+
+
+<style>
     table {
         color: #333;
         width: 800px;
@@ -31,77 +123,204 @@
 
 </style>
 
+<style>
+    .div-image{
+        background-image: url('assets/images/shutterstock_229210897.jpg');
+        width:100%;
+        height:100%;
+        z-index: 9997;
+    }
 
-<!-- Start Slide -->
-<section id="slide">
-    <div class="sbg">
+    ul, menu, dir {
+        display: block;
+        list-style-type: disc;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-start: 40px;
+    }
+
+    ul>li {
+        list-style: none;
+        color: #333;
+    }
+    li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+    .c-txt{
+        z-index: 9999;
+        color:white;
+    }
+
+    #involved-l{
+        background-color: rgba(27, 185, 140, 1);
+        color:black;
+        line-height: 2.2;
+    }
+
+    #involved-r{
+        background-color: rgba(34, 47, 63, 1);
+        height:510px;
+        line-height: 2.2;
+    }
+
+    a {color:white;}
+    p{margin-top: 10px}
+
+    .hvr-rectangle-in:before {
+        background: rgba(34, 47, 63, 1);
+    }
+    h4{
+        margin-top: 10px;
+        color: black;  }
+</style>
+
+
+<!-- Start Team -->
+<div class="contain">
+    <section id="team">
+        <div class="team">
+            <div class="container">
+                <h1 class="title">Meetings Rooms</h1>
+                 <div class="area">
+                    <div class="row a-us">
+                        <div class="col-md-12 col-sm-12" id="involved-l">
+                            <div>
+                                <p> Have a break from crowded and stresfull CBD and schedule your next meeting more relaxed Randwick.
+                                    The time consumed on driving away from the City will be compensated by better productivity and lower stress levels.
+                                    We Offer professional meeting room facilities and our staff are on hard should you require admin support or catering.</p>
+                                <div class="au-icon"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button></div>
+<br>
+                            </div>
+                        </div>
+                    </div><!-- /.row -->
+                </div><!-- /.area -->
+            </div><!-- /.container -->
+        </div><!-- /.team -->
+    </section><!-- /#team -->
+</div>
+    <!-- End Team -->
+    <br><br><br>
+    <div class="space"></div>
+
+<!-- Start About -->
+<section id="about">
+    <div class="about">
         <div class="container">
-            <h1>Meeting rooms <br>
-                Day Offices</h1>
-            <h3><br>Configuration<br>Rates<br>Inclusions</h3>
-        </div>
-    </div><!-- /.sbg -->
-</section><!-- /#slide -->
-<!-- End Slide -->
+            <h1 class="title">Metting Room Types and Pricing</h1>
+            <div class="about-us">
+                <section id="pricing" class="text-center high">
+                    <div class="container">
+                        <div class="row pricing">
+                            <div class="col-sm-2">
+                                <div class="popular">
+                                    <h4>Interview Room </h4>
 
-<!-- Start contact-us -->
-<section id="contact-us">
-    <div class="container">
-        <div class="contact-us">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="c-txt">
-                        <table border="1" CELLPADDING=4 padding="15px" align="center">
-                            <tr bgcolor="#dcdcdc">
-                                <td><img src="assets/images/offices/1.png"></td>
-                                <td><img src="assets/images/offices/2.png"></td>
-                                <td><img src="assets/images/offices/3.png"></td>
-                                <td><img src="assets/images/offices/4.png"></td>
-                                <td><img src="assets/images/offices/5.png"></td>
-                                <td><img src="assets/images/offices/6.png"></td>
-                                <td><img src="assets/images/offices/7.png"></td>
-                            </tr>
-                            <tr>
-                                <td>Interview room<br>up to 2 people</td>
-                                <td>Meeting room <br> up to 4 people</td>
-                                <td>Videoconference room <br> up to 4 people</td>
-                                <td>Boardroom <br> up to 8 people</td>
-                                <td>Private office<br>Consultation room</td>
-                                <td>Private office<br>up to 2 people</td>
-                                <td>Team room <br>up to 6 people</td>
-                            </tr>
-                            <tr>
-                                <td>$20 per hour<br>$100 per day</td>
-                                <td>$40 per hour<br>$200 per day</td>
-                                <td>$60 per hour<br>$300 per day</td>
-                                <td>$60 per hour<br>$300 per day</td>
-                                <td>$25 per hour<br>$150 per day</td>
-                                <td>$25 per hour<br>$150 per day</td>
-                                <td>$40 per hour<br>$200 per day</td>
-                            </tr>
-                            <tr>
-                                <td colspan="4"> Included: access to kitchen ameneties with filtered water, complimentary tea and coffee (self service), unlimited internet connection, whiteboard, flat screen, TV or projector, break out facilities</td>
-                                <td colspan="3"> Included: access to kirchen ameneties wit filtered water, complimentary tea and coffee (self service), unlimited internet connection, break out facilities</td>
-                            </tr>
-                            <tr>
-                                <td colspan="7">SERVICES AVAILABLE AT ADDITIONAL COST: TEA/COFFEE SERVING, WORKING BREAKFAST, LUNCH AND DINNER, ADMIN SUPPORT, STATIONERY, AUDIOCONFERENCING FACILITY.</td>
-                            </tr>
-                            <tr>
-                                <td colspan="7">BOOKINGS OUTSIDE WORKING HOURS, WEEKENDS AND PUBLIC HOLIDAYS ARE SUBJECT TO ADDITIONAL FEE OF $50/HOUR WHICH COVERS COST OF CENTRE TEAM MEMBERS SERVICING BOOKING AIR-CONDITIONING COST.</td>
-                            </tr>
-                        </table>
-                        <br><Br>
-                        <div class="au-icon"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button></div>
-                        <br><Br>
+                                    <p>$20 per hour</p>
+                                    <p>$150 per day</p>
+                                    <br>
+                                    <p>Accomodates up to 2 people</p>
+                                    <p>Comfortable set up for interview or one to one private meeting.</p>
+                                    <br>
+                                    <div class="bottom">
+                                        <div class="au-icon" style=" vertical-align : bottom;"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="popular2">
+                                    <h4>Meeting Room </h4>
+                                    <p>$20 per hour</p>
+                                    <p>$200 per day</p>
+                                    <br>
+                                    <p>Accomodates up to 4 people</p>
+                                    <p>Set up with roung table and TV screen, suitable for small mettings and presentations.</p>
+                                    <br>
+                                    <div class="bottom">
+                                        <div class="au-icon"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="popular2">
+                                    <h4>Consultation Room </h4>
+                                    <p>$40 per hour</p>
+                                    <p>$200 per day</p>
+                                    <br>
+                                    <p>Accomodates up to 4 people</p>
+                                    <p>Set up comfortably for consultation with one or more visitors.</p>
+                                    <br>
+                                    <div class="bottom">
+                                        <div class="au-icon"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="popular">
+                                    <h4>Videoconferencing suite</h4>
+                                    <p>$60 per hour</p>
+                                    <p>$300 per day</p>
+                                    <br>
+                                    <p>Accomodates up to 4 people</p>
+                                    <p>Eqquiped with latest videoconferencing equipment and additional sounds profing.</p>
+                                    <br>
+                                    <div class="bottom">
+                                        <div class="au-icon"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="popular2">
+                                    <h4>Board Room </h4>
+                                    <p>$60 per hour</p>
+                                    <p>$300 per day</p>
+                                    <br>
+                                    <p>Accomodates up to 8 people</p>
+                                    <p>Spacious room with targe table, TV screen whiteboard. Can be configured in class room or U-shape style.</p>
+                                    <br>
+                                    <div class="bottom">
+                                        <div class="au-icon" style="bottom: 0;"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button></div>
+                                    </div>
+                                </div>
 
-
-                        Or call for more information to: <a href="tel:+612 8378 9100">+612 8378 9100</a>
-                        <br><Br>
-
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="popular">
+                                    <h4>Training Room </h4>
+                                    <p>$150 per hour</p>
+                                    <p>$600 per day</p>
+                                    <br>
+                                    <p>Accomodates up to 30 people</p>
+                                    <p>Spacious room ideal fro large training group or working event.</p>
+                                    <br>
+                                    <div class="bottom">
+                                        <div class="au-icon"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                </section>
             </div>
+
         </div>
-    </div><!-- container -->
-</section><!-- contact-us -->
-<!-- End contact-us -->
+    </div>
+</section>
+<!-- End About -->
+
+
+<!-- Start About -->
+<section id="about">
+    <div class="about">
+        <div class="container">
+            <h1 class="title">Inclusions</h1>
+            <div class="about-us">
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- End About -->
