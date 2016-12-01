@@ -140,6 +140,18 @@ return array(
 
             ),
 
+            'workspace' => array(
+                'type' => 'Zend\Mvc\Router\Http\Literal',
+                'options' => array(
+                    'route'    => '/workspace',
+                    'defaults' => array(
+                        'controller' => 'Application/Controller/Workspace',
+                        'action'     => 'index',
+                    ),
+                ),
+
+            ),
+
             'login' => array(
                 'type' => 'Zend\Mvc\Router\Http\Literal',
                 'options' => array(
@@ -239,6 +251,7 @@ return array(
             'Application\Controller\Virtualoffices'       => Controller\VirtualofficesController::class,
             'Application\Controller\Thankyou'       => Controller\ThankyouController::class,
             'Application\Controller\Privacy'       => Controller\PrivacyController::class,
+            'Application\Controller\Workspace'       => Controller\WorkspaceController::class,
         ),
     ),
     'view_manager' => array(
