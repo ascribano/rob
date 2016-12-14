@@ -1,326 +1,155 @@
 <style>
-
-    .bottom{
-        position: absolute;
-        text-align: center;
-        left:16%;
-        bottom: 10px;
+    .cuadro1 {
+        background: url(../../assets/custom/7.jpeg)no-repeat;
+        background-position: 100%;
+        background-size: cover;
+        overflow:hidden;
+        border:2px solid black;
+        display: table;
+        margin: 0 auto;
+        display:table;
+        height: 230px;
     }
-    .pricing {
-        margin-top: 50px;
+    .cuadro2 {
+         background: url(../../assets/custom/5.jpeg)no-repeat;
+         background-position: 100%;
+         background-size: cover;
+         overflow:hidden;
+         border:2px solid black;
+         display: table;
+         margin: 0 auto;
+         float: right;
+         height: 230px;
+     }
+    .cuadro3 {
+        background: url(../../assets/custom/2.jpeg)no-repeat;
+        background-position: 100%;
+        background-size: cover;
+        overflow:hidden;
+        border:2px solid black;
+        display: table;
+        margin: 0 auto;
+        float: left;
+        height: 230px;
+    }
+    .cuadro4 {
+        background: url(../../assets/custom/11.jpeg)no-repeat;
+        background-position: 100%;
+        background-size: cover;
+        overflow:hidden;
+        border:2px solid black;
+        display: table;
+        margin: 0 auto;
+        float: right;
+        height: 230px;
     }
 
-    .pricing ul {
-        /* border: 1px solid #e7e7e7;*/
-        border-bottom: 0;
-        list-style: none;
-        padding: 0;
+    .fadeout{
+        background-color: rgba(254, 254, 254, 0.74);
         position: relative;
-        top: 0;
-        transition: all .3s ease;
-        -moz-transition: all .3s ease;
-        -webkit-transition: all .3s ease;
-        -o-transition: all .3s ease;
+        height: 230px;
+    }
+    .nopadding {
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
-    .pricing ul:hover {
-        top: -15px;
+    h3 {
+        margin-top: 0px !important;
     }
-
-    .pricing ul li {
-        border-bottom: 1px solid #e7e7e7;
-        padding: 15px;
+    p {
+        margin-bottom: 0px !important;
     }
-
-    .pricing ul li:nth-child(2n) {
-        background: #f8f8f8;
-    }
-
-    .pricing .title {
-        background: #222;
-        border: 0;
-        color: #fff;
-        font-family: "Montserrat", Arial;
-        font-size: 18px;
-        font-weight: bold;
-        letter-spacing: -0.05em;
-        padding: 50px 0 0;
-        text-transform: uppercase;
-    }
-
-    .pricing .title3 {
-        background: #222;
-        border: 0;
-        color: #fff;
-        font-family: "Montserrat", Arial;
-        font-size: 12px;
-        font-weight: bold;
-        text-transform: uppercase;
-    }
-
-    .popular {
-        background-color: rgba(27, 185, 140, 1);
-        height:300px;
-    }
-
-    .popular2 {
-        background-color: #406696;
-        height:300px;
-    }
-
-    .popular h1{
-        font-size: 16px;
-    }
-
-    .pricing .price {
-        background: #222 !important;
-        color: #14b1bb;
-        font-family: "Montserrat", Arial;
-        font-size: 72px;
-        font-weight: bold;
-        letter-spacing: -0.05em;
-
-        padding: 0 0 50px;
-        text-transform: uppercase;
-    }
-
-
-
 </style>
 
+<section id="business">
+    <div class="container">
+        <div class="feature">
+            <div class="business">
+                <h1>MEETING ROOMS</h1>
+                <p class="txt">Have a break from crowded and stressful CBD and schedule your next meeting in Randwick. We offer professional meeting room facilities and our staff are on hand should you require admin support or catering.
+                </p>
+            </div>
+            <div class="b-txt">
+                <div class="row" style="margin-bottom: 30px;">
+                    <div class="col-md-5 col-sm-4 cuadro1 nopadding">
+                        <div class="b-ic fadeout">
+                            <div class="b-content">
+                                <br>
+                                <h3><a href="#">MEETING ROOM</a></h3>
+                                <p>$30 per hour<br>
+                                $150 per day</p>
 
+                                <p> accommodates up to 4 people</p>
 
-<style>
-    table {
-        color: #333;
-        width: 800px;
-        border-collapse:
-        collapse; border-spacing: 0;
-
-    }
-
-    td, th {
-        border: 1px solid transparent; /* No more visible border */
-        color:#333333;
-        border-width: 1px;
-        border-color: #a9c6c9;
-        border-collapse: collaps
-        height: 30px;
-        transition: all 0.3s; /* Simple transition for hover effect */
-    }
-
-    th {
-        background: #DFDFDF; /* Darken header a bit */
-        font-weight: bold;
-    }
-
-    td {
-        background: #FAFAFA;
-        text-align: center;
-        padding: 10px;
-    }
-
-
-</style>
-
-<style>
-    .div-image{
-        background-image: url('assets/images/shutterstock_229210897.jpg');
-        width:100%;
-        height:100%;
-        z-index: 9997;
-    }
-
-    ul, menu, dir {
-        display: block;
-        list-style-type: disc;
-        -webkit-margin-before: 1em;
-        -webkit-margin-after: 1em;
-        -webkit-margin-start: 0px;
-        -webkit-margin-end: 0px;
-        -webkit-padding-start: 40px;
-    }
-
-    ul>li {
-        list-style: none;
-        color: #333;
-    }
-    li {
-        display: list-item;
-        text-align: -webkit-match-parent;
-    }
-    .c-txt{
-        z-index: 9999;
-        color:white;
-    }
-
-    #involved-l{
-        background-color: rgba(27, 185, 140, 1);
-        color:black;
-        line-height: 2.2;
-    }
-
-    #involved-r{
-        background-color: rgba(34, 47, 63, 1);
-        height:510px;
-        line-height: 2.2;
-    }
-
-    a {color:white;}
-    p{margin-top: 10px}
-
-    .hvr-rectangle-in:before {
-        background: rgba(34, 47, 63, 1);
-    }
-    h4{
-        margin-top: 10px;
-        color: black;  }
-</style>
-
-
-<!-- Start Team -->
-<div class="contain">
-    <section id="team">
-        <div class="team">
-            <div class="container">
-                <h1 class="title">Meetings Rooms</h1>
-                 <div class="area">
-                    <div class="row a-us">
-                        <div class="col-md-12 col-sm-12" id="involved-l">
-                            <div>
-                                <p> Have a break from crowded and stresfull CBD and schedule your next meeting more relaxed Randwick.
-                                    The time consumed on driving away from the City will be compensated by better productivity and lower stress levels.
-                                    We Offer professional meeting room facilities and our staff are on hard should you require admin support or catering.</p>
-                                <div class="au-icon"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button></div>
-<br>
-                            </div>
-                        </div>
-                    </div><!-- /.row -->
-                </div><!-- /.area -->
-            </div><!-- /.container -->
-        </div><!-- /.team -->
-    </section><!-- /#team -->
-</div>
-    <!-- End Team -->
-    <br><br><br>
-    <div class="space"></div>
-
-<!-- Start About -->
-<section id="about">
-    <div class="about">
-        <div class="container">
-            <h1 class="title">Metting Room Types and Pricing</h1>
-            <div class="about-us">
-                <section id="pricing" class="text-center high">
-                    <div class="container">
-                        <div class="row pricing">
-                            <div class="col-sm-2">
-                                <div class="popular">
-                                    <h4>Interview Room </h4>
-
-                                    <p>$20 per hour</p>
-                                    <p>$150 per day</p>
-                                    <br>
-                                    <p>Accomodates up to 2 people</p>
-                                    <p>Comfortable set up for interview or one to one private meeting.</p>
-                                    <br>
-                                    <div class="bottom">
-                                        <div class="au-icon" style=" vertical-align : bottom;"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-2">
-                                <div class="popular2">
-                                    <h4>Meeting Room </h4>
-                                    <p>$20 per hour</p>
-                                    <p>$200 per day</p>
-                                    <br>
-                                    <p>Accomodates up to 4 people</p>
-                                    <p>Set up with roung table and TV screen, suitable for small mettings and presentations.</p>
-                                    <br>
-                                    <div class="bottom">
-                                        <div class="au-icon"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-2">
-                                <div class="popular2">
-                                    <h4>Consultation Room </h4>
-                                    <p>$40 per hour</p>
-                                    <p>$200 per day</p>
-                                    <br>
-                                    <p>Accomodates up to 4 people</p>
-                                    <p>Set up comfortably for consultation with one or more visitors.</p>
-                                    <br>
-                                    <div class="bottom">
-                                        <div class="au-icon"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-2">
-                                <div class="popular">
-                                    <h4>Videoconferencing suite</h4>
-                                    <p>$60 per hour</p>
-                                    <p>$300 per day</p>
-                                    <br>
-                                    <p>Accomodates up to 4 people</p>
-                                    <p>Eqquiped with latest videoconferencing equipment and additional sounds profing.</p>
-                                    <br>
-                                    <div class="bottom">
-                                        <div class="au-icon"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-2">
-                                <div class="popular2">
-                                    <h4>Board Room </h4>
-                                    <p>$60 per hour</p>
-                                    <p>$300 per day</p>
-                                    <br>
-                                    <p>Accomodates up to 8 people</p>
-                                    <p>Spacious room with targe table, TV screen whiteboard. Can be configured in class room or U-shape style.</p>
-                                    <br>
-                                    <div class="bottom">
-                                        <div class="au-icon" style="bottom: 0;"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button></div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-sm-2">
-                                <div class="popular">
-                                    <h4>Training Room </h4>
-                                    <p>$150 per hour</p>
-                                    <p>$600 per day</p>
-                                    <br>
-                                    <p>Accomodates up to 30 people</p>
-                                    <p>Spacious room ideal fro large training group or working event.</p>
-                                    <br>
-                                    <div class="bottom">
-                                        <div class="au-icon"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button></div>
-                                    </div>
-                                </div>
+                                <p>  Set up with round table and TV screen, suitable for small meetings, consultations and presentions.
+                                </p>
+                                <br>
+                                <button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button>
+                                <br>
                             </div>
                         </div>
                     </div>
-                </section>
+                    <div class="col-md-5 col-sm-4 cuadro2 nopadding">
+                        <div class="b-ic fadeout">
+                            <div class="b-content">
+                                <br>
+                                <h3><a href="#">DAY OFFICE</a></h3>
+                                <p>$30 per hour<br>
+                                 $150 per day</p>
+
+                                <p>   accommodates up to 2-3 people</p>
+
+                                <p>    Set up with desk and visitor chairs or two desks. Ideal for casual office usage or to meet with clients face to face.
+                                </p>
+                                <br>
+                                <button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 col-sm-4 cuadro3 nopadding">
+                        <div class="b-ic fadeout">
+                            <div class="b-content">
+                                <br>
+                                <h3><a href="#">BOARDROOM</a></h3>
+                                <p>$60 per hour<br>
+                                 $300 per day</p>
+
+                                <p>   accommodates up to 10 people</p>
+
+                                <p>   Spacious room with large table, TV screen and whiteboard. Can be configured in class room or U-shape style.
+                                </p>
+                                <br>
+                                <button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-4 cuadro4 nopadding">
+                        <div class="b-ic fadeout">
+                            <div class="b-content">
+                                <br>
+                                <h3><a href="#">TRAINING ROOM</a></h3>
+                                <p>$150 per hour
+                                $700 per day</p>
+
+                                <p> accommodates up to 40 people</p>
+
+                                <p> Spacious room ideal for large training group or networking event.
+                                </p>
+                                <br>
+                                <br>
+                                <br>
+                                <button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
-    </div>
+    </div><!-- /.container -->
 </section>
-<!-- End About -->
-
-
-<!-- Start About -->
-<section id="about">
-    <div class="about">
-        <div class="container">
-            <h1 class="title">Inclusions</h1>
-            <div class="about-us">
-
-            </div>
-
-        </div>
-    </div>
-</section>
-<!-- End About -->

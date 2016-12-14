@@ -46,6 +46,49 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <script src="animate-legacy-support.js"></script>
     <![endif]-->
+    <script type="text/javascript" src="js/cssrefresh.js"></script>
+    <style>
+
+        .homemenu{
+            background:#222;
+        }
+        .homemenu2{
+            background:white;
+        }
+        .menubox{
+            border-color: white;
+            border-width: 3px;
+            height: 80px;
+            text-align: center;
+            vertical-align: middle;
+            border-style: solid;
+
+        }
+
+        .menubox h3{
+            font-size: 20px;
+            color: white;
+        }
+
+        .menubox2{
+            text-align: center;
+
+        }
+
+        .menubox2 h4{
+            font-size: 16px;
+            color: black;
+        }
+
+        a {
+            color: #2e2e2e;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #7b7b7b;
+        }
+
+    </style>
 </head>
 
 
@@ -109,10 +152,9 @@
                         <li><a href="/">home<span class="sr-only">(current)</span></a></li>
                         <li><a href="#" >solutions <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="/servicesoffices">Offices</a></li>
-                                <li><a href="/virtualoffices">Virtual Offices</a></li>
-                                <li><a href="/dayoffice">Meeting rooms</a></li>
-                                <li><a href="/dayoffice">Day offices</a></li>
+                                <li><a href="/servicesoffices" class="logo">Office Space</a></li>
+                                <li><a href="/virtualoffices">Virtual Office</a></li>
+                                <li><a href="/dayoffice">Meeting room</a></li>
                             </ul>
                         </li>
                         <li><a href="/randwick">Randwick</a></li>
@@ -127,6 +169,41 @@
 
     <?php echo $this->content; ?>
 
+    <!--End slider section-->
+    <section>
+        <div class="homemenu">
+            <div class="row">
+                <div class="col-md-3 menubox"><br><h3><a href="/workspace" class="menu">WORKSPACE <br>AND PRICING</a></h3></div>
+                <div class="col-md-3 menubox"><br><h3><a href="/randwick" class="menu">RANDWICK</a></h3></div>
+                <div class="col-md-3 menubox"><br><h3><a href="/getinvolved" class="menu">GET INVOLVED</a></h3></div>
+                <div class="col-md-3 menubox"><br><h3><a href="/contactus" class="menu">CONTACT US</a></h3></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="homemenu2">
+            <div class="row">
+                <div class="col-md-3 menubox2">
+                    <span><h4><a href="/servicesoffices" class="link">Office space</a></h4></span>
+                    <span><h4><a href="/virtualoffices" class="link">Virtual Office</a></h4></span>
+                    <span><h4><a href="/dayoffice" class="link">Meeting Room</a></h4></span>
+
+                </div>
+                <div class="col-md-3 menubox2">
+                    <span><h4><a href="/randwick" class="link">Location</a></h4></span>
+                    <span><h4><a href="/#" class="link">Centre Features</a></h4></span></div>
+                <div class="col-md-3 menubox2">
+                    <span><h4><a href="/contactus" class="link">Contact details</a></h4></span>
+                    <span><h4><a href="/#" class="link">Referral program</a></h4></span>
+                </div>
+                <div class="col-md-3 menubox2">
+                    <span><a href="/privacy" class="link"><h4>Privacy Policy</a></h4></span>
+                    <img src="assets/images/logo-green.gif" width="75">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Start Footer Menu -->
     <section id="f-menu">
         <div class="container">
@@ -139,23 +216,7 @@
                             <p>Copyright 2012 - 2016   <span>|</span>   Every Templates   <span>|</span>   All Rights Reserved. | <a href="/privacy"> Privacy Policy </a></p>
                         </div>
                     </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="/">home<span class="sr-only">(current)</span></a></li>
-                            <li><a href="#" >solutions <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="/servicesoffices">Offices</a></li>
-                                    <li><a href="/virtualoffices">Virtual Offices</a></li>
-                                    <li><a href="/dayoffice">Meeting rooms</a></li>
-                                    <li><a href="/dayoffice">Day offices</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="/randwick">Randwick</a></li>
-                            <li><a href="/getinvolved">Get involved</a></li>
-                            <li><a href="/contactus">contact us</a></li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
+
                 </div><!-- /.container-fluid -->
             </nav><!-- .navbar navbar-default -->
             <!-- scroll-to-top -->

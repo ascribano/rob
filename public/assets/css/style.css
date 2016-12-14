@@ -340,7 +340,7 @@ h5.title{
 /*-------------------------------------
 			i.Business
 --------------------------------------*/
-.feature{padding-top:75px;}
+.feature{padding-top:15px;}
 #business .business{
 	position: relative;
     text-align: center;
@@ -748,7 +748,7 @@ p.text{
 			vi.Team-bg
 --------------------------------------*/
 #team-bg{
-	background: url(../images/tbg.jpg)no-repeat;
+	background: url(../../assets/images/servicesoffices.jpeg)no-repeat;
     background-position: 100%;
     background-size: cover;
 	overflow:hidden;
@@ -826,10 +826,40 @@ p.text{
     border-color: #1BB98C;
     transform: rotateZ(45deg);
 }
+#team-bg .s-box{padding-bottom:60px;}
+#team-bg .s-box:hover .s-content h4 a{color:#1BB98C;transition:.7s;}
+#team-bg .s-icon{float:left;}
+#team-bg .s-content{ padding-left: 70px;}
+#team-bg .s-icon>.s-ibg{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    -o-text-overflow: ellipsis;
+    background: #1BB98C;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+#team-bg .s-icon i{
+    position: relative;
+    bottom: 38px;
+    font-size: 26px;
+    color: #fefefe;
+    display: block;
+    text-align: center;
+}
+#team-bg .s-content h4 a{color: white;transition:.7s;}
+#team-bg .s-content p{color:white;}
 
-/*-------------------------------------
-			vii.News
---------------------------------------*/
+#team-bg .area{
+    background-color: rgba(27, 185, 140, 0.7);
+    margin-bottom: 70px;
+    margin: -73px 0px 64px 0px;
+    height:200px;
+}
+    /*-------------------------------------
+                vii.News
+    --------------------------------------*/
 #news .news{padding: 75px 0;overflow:hidden;}
 #footer .f-img img,
 #news .n-box img{width:100%;}
@@ -1976,29 +2006,39 @@ textarea,input{border:1px solid #ddd;}
 .loader span:nth-child(2) {
   top: 0;
   right: 0;
-  animation: loaderBlockInverse 1.2s infinite ease-in-out both;
+animation: loaderBlockInverse 1.2s infinite ease-in-out both;
 }
 .loader span:nth-child(3) {
-  bottom: 0;
-  left: 0;
-  animation: loaderBlockInverse 1.2s infinite ease-in-out both;
+    bottom: 0;
+    left: 0;
+    animation: loaderBlockInverse 1.2s infinite ease-in-out both;
 }
 .loader span:nth-child(4) {
-  bottom: 0;
-  right: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .preloader {
-	position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-	background-color: #fff; 
-	/* change if the mask should have another color then white */
+    background-color: #fff;
+    /* change if the mask should have another color then white */
     z-index: 9999999;
     /* makes sure it stays on top */
     opacity: .98;
 }
-
+a.menu {
+    color: white !important;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    color: white;
+    text-decoration: none;
+}
+h3 {
+    margin-top: 0px !important;
+}
 /*------------- Thank you --------------*/

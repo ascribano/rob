@@ -1,185 +1,291 @@
 
+
 <style>
-
-    .pricing {
-        margin-top: 50px;
+    .container2 {
+        background-color: #E0E0E0;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    table{
+        width:100%;
+        color:black;
+        text-align: center;
+    }
+    table, th, td {
+        border: 1px solid white;
+        padding: 5px;
+        border-color: white;
+    }
+    th {
+        height: 50px;
+        background: rgba(27, 185, 140, 0.7);
+        width: 80px;
+    }
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
     }
 
-    .pricing ul {
-       /* border: 1px solid #e7e7e7;*/
-        border-bottom: 0;
-        list-style: none;
-        padding: 0;
-        position: relative;
-        top: 0;
-        transition: all .3s ease;
-        -moz-transition: all .3s ease;
-        -webkit-transition: all .3s ease;
-        -o-transition: all .3s ease;
+    tr:nth-child(odd) {
+        background-color: #d2d2d2;
     }
-
-    .pricing ul:hover {
-        top: -15px;
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: ;
     }
-
-    .pricing ul li {
-        border-bottom: 1px solid #e7e7e7;
-        padding: 15px;
+    .area2 { margin: 0px 0px 0px 0px}
+    .par {
+        background: #636363;
+        color: white;
+        width: 80px;
     }
-
-    .pricing ul li:nth-child(2n) {
-        background: #f8f8f8;
+    .price {font-size: 26px; }
+    .first {
+        border:none;
+    td.firsttd {
+        text-align: right;
     }
-
-    .pricing .title {
-        background: #222;
-        border: 0;
-        color: #fff;
-        font-family: "Montserrat", Arial;
-        font-size: 18px;
-        font-weight: bold;
-        letter-spacing: -0.05em;
-        padding: 50px 0 0;
-        text-transform: uppercase;
+    h3 {
+        margin-top: 0px !important;
     }
-
-    .pricing .title3 {
-        background: #222;
-        border: 0;
-        color: #fff;
-        font-family: "Montserrat", Arial;
-        font-size: 12px;
-        font-weight: bold;
-        text-transform: uppercase;
-    }
-
-    .popular .title {
-        background: #14b1bb;
-    }
-
-    .pricing .price {
-        background: #222 !important;
-        color: #14b1bb;
-        font-family: "Montserrat", Arial;
-        font-size: 72px;
-        font-weight: bold;
-        letter-spacing: -0.05em;
-
-        padding: 0 0 50px;
-        text-transform: uppercase;
-    }
-
-    .popular .price {
-        background: #14b1bb !important;
-        color: #222;
-    }
-
-
 </style>
 
-
-<!-- Start Slide -->
-<section id="slide3">
-    <div class="sbg">
+<section id="team-bg">
+    <div class="team-bg">
         <div class="container">
-            <h1>VIRTUAL <br> OFFICES</h1>
-            <br><br>
-            <h3>OPTIONS<br>BENEFITS <br>PRICING</h3>
-        </div>
-    </div><!-- /.sbg -->
-</section><!-- /#slide -->
-<!-- End Slide -->
-
-
-<!-- Start About -->
-<section id="about">
-    <div class="about">
-        <div class="container">
-            <div class="about-us">
-                <section id="pricing" class="text-center high">
-                    <div class="container">
-                        <div class="row pricing">
-                            <div class="col-sm-3">
-                                <ul>
-                                    <li class="title">FROM </li>
-                                    <li class="price">$17</li>
-                                    <li class="title3">ANYTIME MAIL</li>
-                                    <li>REGISTERED ADDRESS </li>
-                                    <li>MAIL AND PACKAGE  HANDLING AND FORWARDING</li>
-                                    <li>LOCAL FAX NUMBER</li>
-                                    <li>ACCESS TO CENTRE FACILITIES </li>
-                                    <li>ACCESS TO ADMIN SUPPORT AND PA SERVICES </li>
-                                    <li>ACCESS TO CLIENT DIRECTORY BOARD (AT ADDITIONAL FEE)</li>
-                                    <li>10% DISCOUNT ON MEETING ROOM AND DAY OFFICE BOOKINGS</li>
-                                    <li>PRICE PER WEEK, EXCLUDING GST, REGISTRATION OF $50 AND DEPOSIT OF 2 WEEKS</li>
-                                    <li><div class="au-icon"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button></div></li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-3">
-                                <ul class="popular">
-                                    <li class="title">FROM</li>
-                                    <li class="price">$23</li>
-                                    <li class="title3">ANYTIME TELEPHONE </li>
-                                    <li>LOCAL TELEPHONE NUMBER  </li>
-                                    <li>CALL ANSWERING AND SCREENING </li>
-                                    <li>CALL DIVERT </li>
-                                    <li>VOICEMAIL </li>
-                                    <li>LOCAL FAX NUMBER</li>
-                                    <li>ACCESS TO CENTRE FACILITIES</li>
-                                    <li>ACCESS TO ADMIN SUPPORT AND PA SERVICES </li>
-                                    <li>ACCESS TO CLIENT DIRECTORY BOARD (AT ADDITIONAL FEE)</li>
-                                    <li>10% DISCOUNT ON MEETING ROOM AND DAY OFFICE BOOKINGS </li>
-                                    <li>PRICE PER WEEK, EXCLUDING GST, REGISTRATION OF $50 AND DEPOSIT OF 2 WEEKS</li>
-                                    <li><div class="au-icon"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button></div></li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-3">
-                                <ul>
-                                    <li class="title">FROM</li>
-                                    <li class="price">$40</li>
-                                    <li class="title3">ANYTIME VIRTUAL OFFICE</li>
-                                    <li>BUSINESS ADDRESS </li>
-                                    <li>MAIL AND PACKAGE  HANDLING AND FORWARDING</li
-                                    <li>LOCAL TELEPHONE NUMBER  </li>
-                                    <li>CALL ANSWERING AND SCREENING </li>
-                                    <li>CALL DIVERT </li>
-                                    <li>VOICEMAIL </li>
-                                    <li>LOCAL FAX NUMBER</li>
-                                    <li>ACCESS TO CENTRE FACILITIES</li>
-                                    <li>ACCESS TO ADMIN SUPPORT AND PA SERVICES </li>
-                                    <li>ACCESS TO CLIENT DIRECTORY BOARD (AT ADDITIONAL FEE)</li>
-                                    <li>10% DISCOUNT ON MEETING ROOM AND DAY OFFICE BOOKINGS </li>
-                                    <li>PRICE PER WEEK, EXCLUDING GST, REGISTRATION OF $50 AND DEPOSIT OF 2 WEEKS</li>
-                                    <li><div class="au-icon"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button></div></li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-3">
-                                <ul class="popular">
-                                    <li class="title">FROM</li>
-                                    <li class="price">$64</li>
-                                    <li class="title3">ANYTIME VIRTUAL OFFICE PREMIUM</li>
-                                    <li>BUSINESS ADDRESS </li>
-                                    <li>MAIL AND PACKAGE  HANDLING AND FORWARDING</li
-                                    <li>LOCAL TELEPHONE NUMBER  </li>
-                                    <li>CALL ANSWERING AND SCREENING </li>
-                                    <li>CALL DIVERT </li>
-                                    <li>VOICEMAIL </li>
-                                    <li>LOCAL FAX NUMBER</li>
-                                    <li>ACCESS TO CENTRE FACILITIES</li>
-                                    <li>ACCESS TO ADMIN SUPPORT AND PA SERVICES </li>
-                                    <li>ACCESS TO CLIENT DIRECTORY BOARD (AT ADDITIONAL FEE)</li>
-                                    <li>10% DISCOUNT ON MEETING ROOM AND DAY OFFICE BOOKINGS </li>
-                                    <li>5 FREE DAYS PRIVATE OFFICE USAGE</li>
-                                    <li>PRICE PER WEEK, EXCLUDING GST, REGISTRATION OF $50 AND DEPOSIT OF 2 WEEKS</li>
-                                    <li><div class="au-icon"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button></div></li>
-                                </ul>
-                            </div>
-                        </div>
+            <div class="area">
+                <div class="row">
+                    <div class="col-md-8 col-sm-3" style="text-align: center; margin: -66px 0px 8px 150px">
+                        <h1 style="text-align: center">VIRTUAL OFFICES</h1>
+                        <p>Professional business presence for entrepreneurs, mobile professionals, home based businesses and start ups.
+                        </p>
+                        <button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">Enquire now</button>
                     </div>
-                </section>
+                </div>
             </div>
+            <div class="area2">
+                <div class="row">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th class="first"></th>
+                            <th class="par">
+                                From<br>
+                                <span class="price">$20</span><br>
+                                per hour <br>
+                                ANYTIME MEETING
+                            </th>
+                            <th>
+                                From<br>
+                                <span class="price">$20</span><br>
+                                per week <br>
+                                ANYTIME MAIL
+                            </th>
+                            <th class="par">
+                                From<br>
+                                <span class="price">$20</span><br>
+                                per week <br>
+                                ANYTIME TELEPHONE
+                            </th>
+                            <th>
+                                From<br>
+                                <span class="price">$35</span><br>
+                                per week <br>
+                                ANYTIME VIRTUAL OFFICE
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td style="text-align: left">Registered business address</td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Mail and Package Handing and forwarding
+                            </td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Local fax number
+                            </td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Fax to email
+                            </td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Local telephone number
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">International telephone number
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Telephone answering and screening
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Call divert</td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Voicemail</td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Voicemail to email
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Free call forwarding to local numbers
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Free call forwarding to national numbers
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Free call forwarding to Australian mobile numbers
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Private secure letterbox
+                            </td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Private storage locker
+                            </td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Management of courier services
+                            </td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Access to centre facilities
+                            </td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Access to admin support and PA services
+                            </td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Access to client directory board
+                            </td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">10% discount on meeting room and day office
+                            </td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">2 hours free of meeting room or day office usage
+                            </td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i> WITH <br>  ANYTIME <br> MEETING 2
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">4 hours free of meeting room or day office usage
+                            </td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i> WITH <br>  ANYTIME <br> MEETING 4</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">6 hours free of meeting room or day office usage
+                            </td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i> WITH  ANYTIME<br>  MEETING 6</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
 
+                        </tbody>
+                    </table>
+                </div><!-- /.row -->
+            </div>
         </div>
+    </div><!-- /.container -->
     </div>
 </section>
-<!-- End About -->
