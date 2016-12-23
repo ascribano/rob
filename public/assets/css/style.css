@@ -42,7 +42,7 @@
 }
 body{
 	/*font-family: 'Fira Sans', sans-serif;*/
-    font-family: Lato;
+    font-family: "HelveticaNeue-Light";
 	font-size:14px;
 	color: #737373;
 	background:#fefefe;
@@ -1059,7 +1059,6 @@ p.text{
  .form-control {
     border-radius: 0;
 	box-shadow: none;
-	text-transform: capitalize;
 	outline:0;
 }
 #blog .c-txt .btn-default:hover,

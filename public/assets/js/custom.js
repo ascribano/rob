@@ -60,7 +60,7 @@ $(window).load(function() {
 	/*----------------------------- Gmaps -----------------------*/	
 	  var map;
 	  $('.ev-map-display').each(function() {
-		  var myLatLng = {lat: -33.9144600, lng:151.2396600};
+		  var myLatLng = {lat: -33.91411000, lng:151.2401000};
 
 		  var map = new google.maps.Map(document.getElementById('map'), {
 			  zoom: 15,

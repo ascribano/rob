@@ -1,79 +1,171 @@
 <style>
-    table {
-        color: #333;
-        font-family: Helvetica, Arial, sans-serif;
-        width: 800px;
-        border-collapse:
-            collapse; border-spacing: 10px;
 
+    .imageback {
 
+        background: url(../assets/images/randwick-building.jpeg) no-repeat;
+        background-position: 100%;
+        background-size: cover;
+        overflow:hidden;
+        height:400px;
     }
 
-    td, th {
-        border: 2px solid transparent; /* No more visible border */
-        color:#333333;
+    .hoverbox
+    {
+        cursor: default;
+        list-style: none;
+    }
+
+    .hoverbox a
+    {
+        cursor: default;
+    }
+
+    .hoverbox a .preview
+    {
+        display: none;
+    }
+
+    .hoverbox a:hover .preview
+    {
+        display: block;
+        position: absolute;
+        top: -33px;
+        left: -45px;
+        z-index: 1;
+    }
+
+    .hoverbox img
+    {
+        background: #fff;
+        border-color: #aaa #ccc #ddd #bbb;
+        border-style: solid;
         border-width: 1px;
-        border-color: #a9c6c9;
-        border-collapse: collaps
-        height: 30px;
-        transition: all 0.3s; /* Simple transition for hover effect */
+        color: inherit;
+        padding: 2px;
+        vertical-align: top;
+        width: 100px;
+        height: 75px;
     }
 
-    th {
-        background: #DFDFDF; /* Darken header a bit */
-        font-weight: bold;
+    .hoverbox li
+    {
+        background: #eee;
+        border-color: #ddd #bbb #aaa #ccc;
+        border-style: solid;
+        border-width: 1px;
+        color: inherit;
+        display: inline;
+        float: left;
+        margin: 3px;
+        padding: 2px;
+        position: relative;
     }
 
-    td {
-        background: #FAFAFA;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .about {
-        background-image: url("assets/images/randwick-background.jpg");
+    .hoverbox .preview
+    {
+        border-color: #000;
+        width: 200px;
+        height: 200px;
     }
 
 </style>
 
-
-<!-- Start About -->
-<section id="about">
-    <div class="about">
+<section id="team-bg">
+    <div class="team-bg">
         <div class="container">
-            <h1 class="title">RANDWICK</h1>
-            <p style="text-align: center">Anytime Offices are conveniently located in the heart of eastern suburbs with beaches <br>on the doorstep and short drive to the airport or the CBD.</p>
-            <div class="about-us">
-                <div class="a-us">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <p>ANYTIME OFFICES RANDWICK<br>
-                                LEVEL 2 <br>
-                                65-71 BELMORE ROAD <br>
-                                RANDWICK, NSW 2031 <br>
-                            <p/>
-                            <p>
-                                <a href="tel:+612 8378 9100">+612 8378 9100</a><br>
-                                <a href="tel:+612 8378 9100">+612 8378 9100</a><br>
-                                <a href="mailto:info@anytime-offices.com.au"><span style="text-transform: lowercase;">info@anytime-offices.com.au</span></a><br>
-                            </p>
-
-                            <div class="au-icon"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">get in touch now</button></div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="au-img"><img src="assets/images/randwick-building.jpeg" alt="image" /></div>
-                        </div>
-                        <div class="col-md-4">
-                            <div id="map" class="ev-map-display"></div>
-                        </div>
-                        <br><br>
-                        <!-- Start Map -->
-
+            <div class="">
+                <div class="row">
+                    <div class="col-md-8 col-sm-4" style="text-align: center; margin: -66px 0px 8px 150px">
+                        <h1 style="text-align: center">RANDWICK</h1>
+                        <p>Anytime Offices are conveniently located in the heart of eastern suburbs with beaches <br>on the doorstep and short drive to the airport or the CBD.
+                        </p>
+                        <br><br><br>
                     </div>
                 </div>
             </div>
+            <div >
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <div class="s-box">
+                            <div class="s-content">
+                                <p>ANYTIME OFFICES RANDWICK<br>
+                                    LEVEL 2 <br>
+                                    65-71 BELMORE ROAD <br>
+                                    RANDWICK, NSW 2031 <br>
+                                <p/>
+                                <p>
+                                    <a href="tel:+612 8378 9100">+612 8378 9100</a><br>
+                                    <a href="tel:+612 8378 9100">+612 8378 9100</a><br>
+                                    <a href="mailto:info@anytime-offices.com.au"><span style="text-transform: lowercase;">info@anytime-offices.com.au</span></a><br>
+                                </p>
+                                <br><br><br><br>
+                                <div class="au-icon"><button class="btn btn-default hvr-rectangle-in" onclick="window.location.href ='/contactus'">get in touch now</button></div>
 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 imageback">
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                        <div id="map" class="ev-map-display"></div>
+                    </div>
+                </div><!-- /.row -->
+            </div>
         </div>
+<br><br><br><br><br>
+<div class="row">
+
+    <div class="col-md-10 col-sm-4" style="text-align: center; margin: -66px 0px 8px 150px">
+        <ul class="hoverbox">
+            <li>
+                <a href="#"><img src="img/203h.jpg" alt="description" /><img src="img/203h.jpg" alt="description" class="preview" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/204a.jpg" alt="description" /><img src="img/204a.jpg" alt="description" class="preview" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/218g.JPG" alt="description" /><img src="img/218g.JPG" alt="description" class="preview" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/219r.JPG" alt="description" /><img src="img/219r.JPG" alt="description" class="preview" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/2191q.jpg" alt="description" /><img src="img/2191q.jpg" alt="description" class="preview" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/IMG_3386.JPG" alt="description" /><img src="img/IMG_3386.JPG" alt="description" class="preview" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/IMG_3573-1.JPG" alt="description" /><img src="img/IMG_3573-1.JPG" alt="description" class="preview" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/waiting area 2.jpg" alt="description" /><img src="img/waiting area 2.jpg" alt="description" class="preview" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/waiting area.jpg" alt="description" /><img src="img/waiting area.jpg" alt="description" class="preview" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/206c.jpg" alt="description" /><img src="img/206c.jpg" alt="description" class="preview" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/kitchen.jpeg" alt="description" /><img src="img/kitchen.jpeg" alt="description" class="preview" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/20161223_143513.jpeg" alt="description" /><img src="img/20161223_143513.jpeg" alt="description" class="preview" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/IMG_3443.jpeg" alt="description" /><img src="img/IMG_3443.jpeg" alt="description" class="preview" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/20161223_104305.jpeg" alt="description" /><img src="img/20161223_104305.jpeg" alt="description" class="preview" /></a>
+            </li>
+        </ul>
     </div>
-</section><!-- /#About -->
-<!-- End About -->
+</div>
+
+    </div><!-- /.container -->
+    </div>
+
+</section>
